@@ -1,0 +1,530 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header
+{
+    width: 100%;
+    background-color: #4885eca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.container
+{
+    width: 90%;
+    /* background-color: gray; */
+    display: flex;
+}
+
+.header_container
+{
+    justify-content: space-between;
+}
+
+.logo
+{
+    height: 65px;
+    width: 15%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 65px;
+    color: white;
+}
+
+.nav
+{
+    height: 65px;
+    width: 30%;
+    /* background-color: brown; */
+    display: flex;
+}
+
+
+.nav_items
+{
+    height: 65px;
+    width: 20%;
+    /* background-color:tomato; */
+    text-align: center;
+    font-family: Segoe UI;
+    line-height: 65px;
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    
+}
+
+.nav_items:hover
+{
+    background-color: white;
+    color: #3f51b5e3;
+}
+
+/* css for banner */
+
+.banner
+{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-color: gray;
+    background-image: url(./images/compter.jpg);
+}
+
+.overlay
+{
+    height:800px;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    align-items: center;
+}
+
+.bann_text
+{
+    height: 250px;
+    width: 45%;
+    background-color: #4885eca1;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+    
+}
+
+.bann_title
+{
+    font-size: 45px;
+    font-family: Segoe UI;
+    margin-bottom: 15px;
+}
+
+.bann_desc
+{
+    margin-bottom: 15px;
+}
+.padd
+{
+    padding: 20px;
+    /* background-color: red; */
+}
+.bann_btn
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: segoe ui;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.bann_btn:hover
+{
+    color:#4885eca1 ;
+    background-color: white;
+}
+
+/* css for service */
+
+.services
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #d6d1d1de;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoe ui;
+}
+.service_container
+{
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.service
+{
+    height: 350px;
+    width: 48%;
+    background-color: white;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.service_img
+{
+    height: 350px;
+    width: 40%;
+    /* background-color: blue; */
+    display: flex;
+    overflow: hidden;
+
+}
+.service_info
+{
+    height: 350px;
+    width: 55%;
+    /* background-color: tomato; */
+    padding: 20px;
+    
+    
+   
+}
+
+.service_title
+{
+    font-family: segoe ui;
+    margin-bottom: 10px;
+    
+}
+
+.service_desc
+{
+    margin-bottom: 25px;
+    
+    
+}
+
+.service_btn
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: segoe ui;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4885eca1;
+    color: white;
+    /* border: 3px solid white; */
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.service_btn:hover
+{
+    color:#4885eca1 ;
+    background-color: white;
+
+}
+
+/* css for about */
+
+.about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoeui;
+   
+}
+
+.about_container
+{
+    margin-top: 20px;
+    display: inline;
+    line-height: 23px;
+    
+}
+
+.start_word
+{
+    font-size: 25px;
+    font-weight: bolder;
+}  
+
+/* css for highlight */
+
+.highlight
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:#4885eca1;
+    display: flex;
+    justify-content: center;
+}
+.highlight_container
+{
+    justify-content: space-between;
+}
+
+.highlight_ele
+{
+    height: 180px;
+    width: 22%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe ui;
+    text-align: center;
+    color:#4885eca1 ;
+}
+
+.high_title
+{
+    font-size: 50px;
+}
+
+.high_desc
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* css for quote */
+
+.quote
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    font-family: segoe ui;
+}
+
+.quote_container
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote_title
+{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.quote_btn
+{
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: segoe ui;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #4885eca1;
+    color: white;
+    /* border: 3px solid white; */
+    cursor: pointer;
+    transition: .3s;
+    
+
+}
+
+.quote_btn:hover
+{
+    background-color: white;
+    color:#4885eca1 ;
+}
+
+/* css for portfolio */
+
+.portfolio
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: #d6d1d1de;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoe ui;
+    margin-top: 20px;
+    
+}
+
+.portfolio_container
+{
+    /* width: 100%; */
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project
+{
+    height: 200px;
+    width: 25%;
+    display: flex;
+}
+
+.project_1
+{
+    background-image: url('https://images.pexels.com/photos/845847/pexels-photo-845847.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_2
+{
+    background-image: url('https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_3
+{
+    background-image: url('https://images.pexels.com/photos/1319854/pexels-photo-1319854.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_4
+{
+    background-image: url('https://images.pexels.com/photos/338515/pexels-photo-338515.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_5
+{
+    background-image: url('https://images.pexels.com/photos/995301/pexels-photo-995301.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_6
+{
+    background-image: url('https://images.pexels.com/photos/1089306/pexels-photo-1089306.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+.project_7
+{
+    background-image: url('https://images.pexels.com/photos/3432784/pexels-photo-3432784.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project_8
+{
+    background-image: url('https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title
+{
+    height: 100px;
+    width: 100%;
+    text-indent: 30px;
+    line-height: 100px;
+    color: white;
+    background-color:#4885eca1 ;
+    font-family: segoe ui;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.project_title:hover
+{
+    height: 200px;
+}
+
+/* css for footer */
+
+.footer 
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer_ele
+{
+    height: 300px;
+    width: 25%;
+    background-color: #4885eca1;
+    font-family: segoe ui;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer_child
+{
+    
+    color: white;
+    font-size: 25px;
+    align-items: center;
+}
+ul{
+    margin-top: 45px;
+}
+
+li{
+    list-style-type:none;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.first
+{
+    font-size: 23px;
+    
+}
+
+.footer_child1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container
+{
+    width: 70%;
+    justify-content: space-between;
+}
+
+.social_icon
+{
+    height: 50px;
+    width: 50px;
+    /* background-color: white; */
+}
+
+.si1
+{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/facebook-128.png');
+    background-size: cover;
+}
+
+.si2
+{
+    background-image: url('https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png');
+    background-size: cover;
+}
+
+.si3
+{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/socialcones/508/GooglePlus-128.png');
+    background-size: cover;
+}
+
+.si4
+{
+    background-image: url('https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_3-instagram-128.png');
+    background-size: cover;
+}
